@@ -150,5 +150,21 @@
         *.pyc
 
 <h2>Windows Task Scheduler Screenshots</h2>
+<b>Task: <i>Run main.py</i></b>
 
-<img src="../">
+
+![WTS Screenshots](utils/img/screenshots/Windows_Task_Scheduler_Main.jpg)
+
+
+<b>Task: <i>Run test_pipeline.py</i></b>
+
+
+![WTS Screenshots](utils/img/screenshots/Windows_Task_Scheduler_Test_Pipeline.png)
+
+
+<b>Task: <i>Run batch_test.bat</i></b>
+
+
+![WTS Screenshots](utils/img/screenshots/Windows_Task_Scheduler_Batch_Test.png)
+
+
