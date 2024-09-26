@@ -1,0 +1,145 @@
+2024-09-25 16:58:14,474:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 16:58:58,856:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 16:58:58,865:INFO:Data har transformerats framgångsrikt.
+2024-09-25 16:58:58,878:ERROR:Fel vid uppdatering av databasen: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 16:58:58,878:ERROR:Databasfel: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 16:59:26,642:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 16:59:26,649:INFO:Data har transformerats framgångsrikt.
+2024-09-25 16:59:26,671:ERROR:Fel vid uppdatering av databasen: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 16:59:26,671:ERROR:Databasfel: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 16:59:26,675:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 16:59:26,679:INFO:Data har transformerats framgångsrikt.
+2024-09-25 16:59:26,692:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:10:25,753:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:10:25,761:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:10:25,784:ERROR:Fel vid uppdatering av databasen: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:10:25,784:ERROR:Databasfel: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:10:25,789:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:10:25,794:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:10:25,809:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:12:44,665:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:13:43,928:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:14:50,519:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:14:50,526:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:14:50,548:ERROR:Fel vid uppdatering av databasen: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:14:50,549:ERROR:Databasfel: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:15:28,000:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:15:28,008:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:15:28,026:ERROR:Fel vid uppdatering av databasen: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:15:28,026:ERROR:Databasfel: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:15:28,030:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:15:28,035:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:15:28,049:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:18:22,573:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:18:22,581:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:18:22,606:ERROR:Fel vid uppdatering av databasen: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:18:22,606:ERROR:Databasfel: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:31:30,113:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:32:12,138:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:32:12,146:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:32:12,434:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:32:12,435:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 17:32:48,730:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:32:48,737:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:32:49,010:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:32:49,011:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 17:32:49,016:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:32:49,021:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:32:49,026:ERROR:Fel vid uppdatering av databasen: 'str' object has no attribute 'strftime'
+2024-09-25 17:43:23,185:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:43:23,196:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:43:23,463:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:43:23,463:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 17:43:23,467:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:43:23,472:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:43:23,479:ERROR:Fel vid uppdatering av databasen: 'str' object has no attribute 'strftime'
+2024-09-25 17:43:50,584:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:43:50,592:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:43:50,882:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:43:50,883:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 17:43:50,887:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:43:50,893:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:43:50,898:ERROR:Fel vid uppdatering av databasen: 'str' object has no attribute 'strftime'
+2024-09-25 17:44:06,858:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:44:06,866:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:44:07,162:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:44:07,163:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 17:44:07,168:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:44:07,172:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:44:07,178:ERROR:Fel vid uppdatering av databasen: 'str' object has no attribute 'strftime'
+2024-09-25 17:47:37,580:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:47:37,588:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:47:37,590:ERROR:Fel vid uppdatering av databasen: 'Timestamp' object has no attribute 'str'
+2024-09-25 17:47:37,590:ERROR:Ett okänt fel inträffade i pipelinen: 'Timestamp' object has no attribute 'str'
+2024-09-25 17:47:44,066:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:47:44,074:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:47:44,075:ERROR:Fel vid uppdatering av databasen: 'Timestamp' object has no attribute 'str'
+2024-09-25 17:47:44,075:ERROR:Ett okänt fel inträffade i pipelinen: 'Timestamp' object has no attribute 'str'
+2024-09-25 17:47:44,079:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:47:44,084:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:47:44,095:ERROR:Fel vid uppdatering av databasen: 'str' object has no attribute 'str'
+2024-09-25 17:49:04,644:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:49:04,652:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:49:04,654:ERROR:Fel vid uppdatering av databasen: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:49:04,654:ERROR:Databasfel: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:49:09,583:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:49:09,591:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:49:09,593:ERROR:Fel vid uppdatering av databasen: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:49:09,593:ERROR:Databasfel: Error binding parameter 1: type 'Timestamp' is not supported
+2024-09-25 17:49:09,597:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:49:09,602:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:49:09,611:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 17:50:30,218:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:50:30,230:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:50:30,234:ERROR:Fel vid uppdatering av databasen: 'key of type tuple not found and not a MultiIndex'
+2024-09-25 17:50:30,234:ERROR:Ett okänt fel inträffade i pipelinen: 'key of type tuple not found and not a MultiIndex'
+2024-09-25 17:50:30,239:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:50:30,245:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:50:30,257:ERROR:Fel vid uppdatering av databasen: 'key of type tuple not found and not a MultiIndex'
+2024-09-25 17:50:37,351:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:50:37,359:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:50:37,360:ERROR:Fel vid uppdatering av databasen: 'key of type tuple not found and not a MultiIndex'
+2024-09-25 17:50:37,361:ERROR:Ett okänt fel inträffade i pipelinen: 'key of type tuple not found and not a MultiIndex'
+2024-09-25 17:50:42,641:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:50:42,649:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:50:42,651:ERROR:Fel vid uppdatering av databasen: 'key of type tuple not found and not a MultiIndex'
+2024-09-25 17:50:42,651:ERROR:Ett okänt fel inträffade i pipelinen: 'key of type tuple not found and not a MultiIndex'
+2024-09-25 17:50:42,654:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:50:42,659:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:50:42,669:ERROR:Fel vid uppdatering av databasen: 'key of type tuple not found and not a MultiIndex'
+2024-09-25 17:52:48,537:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:52:48,544:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:52:48,546:ERROR:Fel vid uppdatering av databasen: Passing a set as an indexer is not supported. Use a list instead.
+2024-09-25 17:52:48,546:ERROR:Ett okänt fel inträffade i pipelinen: Passing a set as an indexer is not supported. Use a list instead.
+2024-09-25 17:52:54,272:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:52:54,279:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:52:54,281:ERROR:Fel vid uppdatering av databasen: Passing a set as an indexer is not supported. Use a list instead.
+2024-09-25 17:52:54,281:ERROR:Ett okänt fel inträffade i pipelinen: Passing a set as an indexer is not supported. Use a list instead.
+2024-09-25 17:52:54,285:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 17:52:54,289:INFO:Data har transformerats framgångsrikt.
+2024-09-25 17:52:54,298:ERROR:Fel vid uppdatering av databasen: Passing a set as an indexer is not supported. Use a list instead.
+2024-09-25 18:07:52,088:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 18:07:52,096:INFO:Data har transformerats framgångsrikt.
+2024-09-25 18:07:52,360:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 18:07:52,360:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 18:08:26,080:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 18:08:26,088:INFO:Data har transformerats framgångsrikt.
+2024-09-25 18:08:26,352:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 18:08:26,352:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 18:08:26,357:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 18:08:26,361:INFO:Data har transformerats framgångsrikt.
+2024-09-25 18:08:26,371:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 18:11:29,669:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 18:11:29,677:INFO:Data har transformerats framgångsrikt.
+2024-09-25 18:11:29,931:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 18:11:29,932:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 18:11:29,937:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 18:11:29,942:INFO:Data har transformerats framgångsrikt.
+2024-09-25 18:11:29,954:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 18:12:57,081:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 18:12:57,089:INFO:Data har transformerats framgångsrikt.
+2024-09-25 18:12:57,359:INFO:Databasen uppdaterad framgångsrikt.
+2024-09-25 18:12:57,360:INFO:Pipeline kördes framgångsrikt.
+2024-09-25 18:12:57,364:INFO:CSV fil inläst framgångsrikt.
+2024-09-25 18:12:57,369:INFO:Data har transformerats framgångsrikt.
+2024-09-25 18:12:57,379:INFO:Databasen uppdaterad framgångsrikt.
