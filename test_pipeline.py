@@ -10,7 +10,7 @@ import pandas as pd
 import read_csv
 import transform_data
 import update_database
-import main  # Importerar main.py för att testa pipelinen
+import main
 
 class TestPipeline(unittest.TestCase):
     """
@@ -50,7 +50,8 @@ class TestPipeline(unittest.TestCase):
         """
         df = read_csv.read_csv(self.test_csv)
         self.assertIsInstance(df, pd.DataFrame)
-        self.assertEqual(df.shape, (2, 2))  # Kontrollera att rätt antal rader och kolumner läses in
+        # Kontrollera att rätt antal rader och kolumner läses in
+        self.assertEqual(df.shape, (2, 2))
 
     def test_transform_data(self):
         """
@@ -66,7 +67,7 @@ class TestPipeline(unittest.TestCase):
         SQL-databasen uppdateras korrekt.
         """
         df = pd.DataFrame({
-        'date': ['2023-01-01', '2023-01-02'],  # Ensure 'date' column exists
+        'date': ['2023-01-01', '2023-01-02'],
         'currency_code': ['USD', 'USD'],
         'name': ['Big Mac', 'Big Mac'],
         'local_price': [5.00, 5.00],
@@ -79,9 +80,10 @@ class TestPipeline(unittest.TestCase):
         try:
             conn = sqlite3.connect(self.test_db)
             cursor = conn.cursor()
-            cursor.execute("SELECT count(*) FROM bigmac_data")
+            cursor.execute("SELECT count(*) FROM bigmac")
             result = cursor.fetchone()
-            self.assertEqual(result[0], 4)  # Kontrollera att rätt antal rader har lagts till
+            # Kontrollera att rätt antal rader har lagts till
+            self.assertEqual(result[0], 2)
         except sqlite3.OperationalError as e:
             print(f"Databasfel: {e}")
         finally:
@@ -101,7 +103,7 @@ class TestPipeline(unittest.TestCase):
         try:
             conn = sqlite3.connect(self.test_db)
             cursor = conn.cursor()
-            cursor.execute("SELECT count(*) FROM bigmac_data")
+            cursor.execute("SELECT count(*) FROM bigmac")
             result = cursor.fetchone()
             self.assertEqual(result[0], 2)  # Kontrollera att rätt antal rader från CSV lades till
         except sqlite3.OperationalError as e:
