@@ -31,3 +31,5 @@
 ├── `bigmac.db`: SQL-databasfil.
 
 └── `.gitignore`: Ignorera filer vid versionhantering.
+
+<h2 style="bold">Installationsinstruktioner:</h2>
