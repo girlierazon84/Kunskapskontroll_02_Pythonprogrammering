@@ -31,17 +31,17 @@ def main():
 
         logging.info("Pipeline kördes framgångsrikt.")
 
-    except FileNotFoundError as fnfe:
-        logging.error("Filen kunde inte hittas: %s", str(fnfe))
+    except FileNotFoundError as e:
+        logging.error("Filen kunde inte hittas: %s", str(e))
 
-    except pd.errors.EmptyDataError as ee:
-        logging.error("CSV-filen är tom: %s", str(ee))
+    except pd.errors.EmptyDataError as e:
+        logging.error("CSV-filen är tom: %s", str(e))
 
-    except pd.errors.ParserError as pe:
-        logging.error("Fel vid parsing av CSV-filen: %s", str(pe))
+    except pd.errors.ParserError as e:
+        logging.error("Fel vid parsing av CSV-filen: %s", str(e))
 
-    except sqlite3.Error as dbe:
-        logging.error("Databasfel: %s", str(dbe))
+    except sqlite3.Error as e:
+        logging.error("Databasfel: %s", str(e))
 
     except Exception as e:
         logging.error("Ett okänt fel inträffade i pipelinen: %s", str(e))
