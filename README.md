@@ -43,7 +43,7 @@
 
 `pip install pandas`
 
-<h2 style="bold">Användning</h2>
+<h2>Användning</h2>
 
 
 
