@@ -32,4 +32,25 @@
 
 └── `.gitignore`: Ignorera filer vid versionhantering.
 
-<h2 style="bold">Installationsinstruktioner:</h2>
+<h2><b>Installationsinstruktioner:</b></h2>
+<b><u>Klona detta repo:</u></b>
+
+`git clone <repo-url>`
+                          
+`cd <projektmapp>`
+
+<b>Installera nödvändiga bibliotek:</b>
+
+`pip install pandas`
+
+<h2 style="bold">Användning</h2>
+
+
+
+
+
+
+
+
+
+
