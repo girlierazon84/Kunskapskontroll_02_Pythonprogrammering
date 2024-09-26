@@ -1,0 +1,6 @@
+_pycache_
+__pycache__/logging_config.cpython-312.pyc
+__pycache__/main.cpython-312.pyc
+__pycache__/read_csv.cpython-312.pyc
+__pycache__/transform_data.cpython-312.pyc
+__pycache__/update_database.cpython-312.pyc
