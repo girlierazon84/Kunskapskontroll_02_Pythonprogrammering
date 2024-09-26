@@ -2,6 +2,7 @@
 
 import logging
 import sqlite3
+import pandas as pd
 
 def update_database(df, db_path):
     """
@@ -11,13 +12,13 @@ def update_database(df, db_path):
     :param db_path: Sökvägen till SQL-databasen.
     """
     try:
+        # Öppna anslutning till databasen
         conn = sqlite3.connect(db_path)
-        df.to_sql('bigmac_data', conn, if_exists='replace', index=False)
         cursor = conn.cursor()
 
-           # Make sure the table exists before inserting data
+        # Skapa tabellen om den inte redan finns
         cursor.execute('''
-            CREATE TABLE IF NOT EXISTS bigmac_data (
+            CREATE TABLE IF NOT EXISTS bigmac (
                 date TEXT,
                 currency_code TEXT,
                 name TEXT,
@@ -27,19 +28,35 @@ def update_database(df, db_path):
             )
         ''')
 
-        # Insert each row into the database
+        # Loop igenom DataFrame och lägg in rader i databasen
         for index, row in df.iterrows():
-            cursor.execute('''
-                INSERT INTO bigmac_data (date, currency_code, name, local_price, dollar_ex, dollar_price)
-                VALUES (?, ?, ?, ?, ?, ?)
-            ''', (row['date'],
-                  row['currency_code'],
-                  row['name'],
-                  row['local_price'],
-                  row['dollar_ex'],
-                  row['dollar_price']))
-            print(f"Inserting row {index}: {row.to_dict()}")  # Debug output
+            # Konvertera datum till sträng om det är ett datetime-objekt
+            date_value = row['date']
+            if isinstance(date_value, pd.Timestamp):
+                date_value = date_value.strftime('%Y-%m-%d')
 
+            cursor.execute('''
+                INSERT INTO bigmac (
+                    date,
+                    currency_code,
+                    name,
+                    local_price,
+                    dollar_ex,
+                    dollar_price
+                )
+                VALUES (?, ?, ?, ?, ?, ?)
+            ''', (
+                # Korrekt format på datum
+                date_value,
+                row['currency_code'],
+                row['name'],
+                row['local_price'],
+                row['dollar_ex'],
+                row['dollar_price']
+            ))
+            print(f"Inserting row {index}: {row.to_dict()}")
+
+        # Spara ändringar
         conn.commit()
         logging.info("Databasen uppdaterad framgångsrikt.")
     except Exception as e:
